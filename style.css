@@ -1,0 +1,32 @@
+#parte{
+    /* Usar a Margin no automático para centralizar */
+    margin: auto;
+    /* Tirar o conteúdo da parte do top */
+    margin-top: 50px;
+    /* A largura tem que ser a mesma do tabuleiro */
+    width: 252px;
+}
+
+.posicao{
+    /* Definir a Largura e altura */
+    border: 2px solid black;
+    /* Como padrão as div ficam uma embaixo da outra é com base nisso usaremos o float para colocar elas para esquerda */
+    float: left;
+    height: 55px;
+    /* 2=Já o Padding-top para vertical */
+    padding-top: 25px;
+    /* 1=Deixa o conteúdo dentro do tabuleiro centralizado */
+    text-align: center;
+    width: 80px;
+}
+
+.tabuleiro{
+    /* Altura é opcional e teria que ser o mesmo valor que o width */
+    /* height: 252px; */
+    /* Usar a Margin no automáticopara centralizar */
+    margin: auto;
+    /* Separar o conteúdo da posição com o margin-top */
+    margin-top: 20px;
+    /* Criando o tabuleiro usando a largura 82 (80 do witdh + 2 da borda) *4  */
+    width: 252px;
+}
