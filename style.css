@@ -1,3 +1,7 @@
+body{
+    background-color: aquamarine;
+}
+
 #parte{
     /* Usar a Margin no automático para centralizar */
     margin: auto;
